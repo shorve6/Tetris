@@ -6,6 +6,9 @@ const COLORS = [
     'cyan', 'blue', 'orange', 'yellow', 'green', 'purple', 'red'
 ];
 
+// Audio element
+const lineClearSound = new Audio('assets/wow.opus');
+
 // Game variables
 let canvas;
 let ctx;
@@ -431,6 +434,10 @@ function clearLines() {
     }
     
     if (linesCleared > 0) {
+        // Play sound effect
+        lineClearSound.currentTime = 0;
+        lineClearSound.play().catch(error => console.log('Audio play failed:', error));
+        
         // Update score
         lines += linesCleared;
         score += calculateScore(linesCleared);
