@@ -7,7 +7,10 @@ const COLORS = [
 ];
 
 // Audio element
-const lineClearSound = new Audio('assets/wow.opus');
+const lineClearSound = new Audio();
+lineClearSound.src = 'assets/wow.opus';
+lineClearSound.preload = 'auto';
+lineClearSound.load();
 
 // Game variables
 let canvas;
@@ -435,8 +438,22 @@ function clearLines() {
     
     if (linesCleared > 0) {
         // Play sound effect
-        lineClearSound.currentTime = 0;
-        lineClearSound.play().catch(error => console.log('Audio play failed:', error));
+        try {
+            lineClearSound.currentTime = 0;
+            const playPromise = lineClearSound.play();
+            
+            if (playPromise !== undefined) {
+                playPromise.catch(error => {
+                    console.log('Audio play failed:', error);
+                    // Try to play again with user interaction
+                    document.addEventListener('click', () => {
+                        lineClearSound.play().catch(e => console.log('Retry play failed:', e));
+                    }, { once: true });
+                });
+            }
+        } catch (error) {
+            console.log('Audio error:', error);
+        }
         
         // Update score
         lines += linesCleared;
